@@ -1,0 +1,19 @@
+{
+"name": "Test #0001",
+"symbol": "NB",
+"description": "Collection of 10 numbers on the blockchain. This is the number 1/1.",
+"seller_fee_basis_points": 500,
+"image": "0.jpg",
+"attributes": [
+{ "trait_type": "Holidays", "value": "0"},
+{ "trait_type": "Courses", "value": "0"},
+{ "trait_type": "Yoga", "value": "1"},
+{ "trait_type": "Car", "value": "0"},
+{ "trait_type": "kit", "value": "1"}
+],
+"properties": {
+"creators": [{ "address": "8TXdPWnq8dB4Nnj1WxSqQnLJdbbduw9sQomsBZx7TCs3", "share": 100}],
+"files": [{ "uri": "0.jpg", "type": "image/jpg"}]
+},
+"collection": { "name": "ACTests", "family": "ACTests"}
+}

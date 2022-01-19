@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego\\source\\repos\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj": {}
+    "C:\\Users\\Diego\\Desktop\\AllyCare\\JsonGeneratorAllyCare\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego\\source\\repos\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj": {
+    "C:\\Users\\Diego\\Desktop\\AllyCare\\JsonGeneratorAllyCare\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego\\source\\repos\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\Desktop\\AllyCare\\JsonGeneratorAllyCare\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj",
         "projectName": "JsonGenerator",
-        "projectPath": "C:\\Users\\Diego\\source\\repos\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj",
+        "projectPath": "C:\\Users\\Diego\\Desktop\\AllyCare\\JsonGeneratorAllyCare\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego\\source\\repos\\JsonGenerator\\JsonGenerator\\obj\\",
+        "outputPath": "C:\\Users\\Diego\\Desktop\\AllyCare\\JsonGeneratorAllyCare\\JsonGenerator\\JsonGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,12 +53,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
