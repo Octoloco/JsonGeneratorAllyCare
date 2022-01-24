@@ -19,3 +19,10 @@ C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerato
 C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\obj\Debug\netcoreapp3.1\JsonGenerator.csproj.CoreCompileInputs.cache
 C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\obj\Debug\netcoreapp3.1\JsonGenerator.dll
 C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\obj\Debug\netcoreapp3.1\JsonGenerator.pdb
+C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\bin\Debug\netcoreapp3.1\JsonGenerator.deps.json
+C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\bin\Debug\netcoreapp3.1\JsonGenerator.runtimeconfig.json
+C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\bin\Debug\netcoreapp3.1\JsonGenerator.runtimeconfig.dev.json
+C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\bin\Debug\netcoreapp3.1\JsonGenerator.dll
+C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\bin\Debug\netcoreapp3.1\JsonGenerator.pdb
+C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\obj\Debug\netcoreapp3.1\JsonGenerator.csproj.AssemblyReference.cache
+C:\Users\Diego\Desktop\AllyCare\JsonGeneratorAllyCare\JsonGenerator\JsonGenerator\obj\Debug\netcoreapp3.1\JsonGenerator.genruntimeconfig.cache

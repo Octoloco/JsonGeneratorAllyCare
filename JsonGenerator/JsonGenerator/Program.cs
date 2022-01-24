@@ -6,15 +6,19 @@ namespace SerializeToFile
 {    
     public class Program
     {
+        private int property1 = 0;
+        private int property2 = 0;
+        private int property3 = 0;
+        private int property4 = 0;
+        private int property5 = 0;
+
         private void Generate(int iterations, int startingIndex)
         {
             for (int i = 0; i < iterations; i++)
             {
                 string fileName = "C:/Users/Diego/Desktop/AllyCare/JsonGeneratorAllyCare/Jsons/" + (startingIndex + i).ToString() + ".json";
-                string jsonString = "{\r\n\"name\": \"Test #" + (startingIndex + i + 1).ToString() + "\",\r\n\"symbol\": \"NB\",\r\n\"description\": \"Collection of 22,000 numbers on the blockchain. This is the number " + (startingIndex + i + 1).ToString() + "/22000.\",\r\n\"seller_fee_basis_points\": 500,\r\n\"image\": \"" + (startingIndex + i).ToString() + ".jpg\",\r\n\"attributes\": [\r\n{ \"trait_type\": \"Holidays\", \"value\": \"0\"},\r\n{ \"trait_type\": \"Courses\", \"value\": \"0\"},\r\n{ \"trait_type\": \"Yoga\", \"value\": \"1\"},\r\n{ \"trait_type\": \"Car\", \"value\": \"0\"},\r\n{ \"trait_type\": \"kit\", \"value\": \"1\"}\r\n],\r\n\"properties\": {\r\n\"creators\": [{ \"address\": \"8TXdPWnq8dB4Nnj1WxSqQnLJdbbduw9sQomsBZx7TCs3\", \"share\": 100}],\r\n\"files\": [{ \"uri\": \"" + (startingIndex + i).ToString() + ".jpg\", \"type\": \"image/jpg\"}]\r\n},\r\n\"collection\": { \"name\": \"ACTests\", \"family\": \"ACTests\"}\r\n}";
+                string jsonString = "{\r\n\"name\": \"Test #" + (startingIndex + i + 1).ToString() + "\",\r\n\"symbol\": \"NB\",\r\n\"description\": \"Collection of 22,000 numbers on the blockchain. This is the number " + (startingIndex + i + 1).ToString() + "/22000.\",\r\n\"seller_fee_basis_points\": 500,\r\n\"image\": \"" + (startingIndex + i).ToString() + ".jpg\",\r\n\"attributes\": [\r\n{ \"trait_type\": \"Holidays\", \"value\": \"" + property1.ToString() + "\"},\r\n{ \"trait_type\": \"Courses\", \"value\": \"" + property2.ToString() + "\"},\r\n{ \"trait_type\": \"Yoga\", \"value\": \"" + property3.ToString() + "\"},\r\n{ \"trait_type\": \"Car\", \"value\": \"" + property4.ToString() + "\"},\r\n{ \"trait_type\": \"kit\", \"value\": \"" + property5.ToString() + "\"}\r\n],\r\n\"properties\": {\r\n\"creators\": [{ \"address\": \"8TXdPWnq8dB4Nnj1WxSqQnLJdbbduw9sQomsBZx7TCs3\", \"share\": 100}],\r\n\"files\": [{ \"uri\": \"" + (startingIndex + i).ToString() + ".jpg\", \"type\": \"image/jpg\"}]\r\n},\r\n\"collection\": { \"name\": \"ACTests\", \"family\": \"ACTests\"}\r\n}";
                 File.WriteAllText(fileName, jsonString);
-
-                Console.WriteLine(File.ReadAllText(fileName));
             }
         }
 
@@ -35,6 +39,101 @@ namespace SerializeToFile
             }
 
             return totalItrations;
+        }
+
+        private void SetProperty1()
+        {
+            Console.WriteLine("Has property1? Y/N:");
+            string input = Console.ReadLine();
+            if (input == "y" || input == "Y")
+            {
+                property1 = 1;
+            }
+            else if (input == "n" || input == "N")
+            {
+                property1 = 0;
+            }
+            else
+            {
+                Console.WriteLine("Input invalid, try again");
+                SetProperty1();
+            }
+        }
+
+        private void SetProperty2()
+        {
+            Console.WriteLine("Has property2? Y/N:");
+            string input = Console.ReadLine();
+            if (input == "y" || input == "Y")
+            {
+                property2 = 1;
+            }
+            else if (input == "n" || input == "N")
+            {
+                property2 = 0;
+            }
+            else
+            {
+                Console.WriteLine("Input invalid, try again");
+                SetProperty2();
+            }
+        }
+
+        private void SetProperty3()
+        {
+            Console.WriteLine("Has property3? Y/N:");
+            string input = Console.ReadLine();
+            if (input == "y" || input == "Y")
+            {
+                property3 = 1;
+            }
+            else if (input == "n" || input == "N")
+            {
+                property3 = 0;
+            }
+            else
+            {
+                Console.WriteLine("Input invalid, try again");
+                SetProperty3();
+            }
+        }
+
+        private void SetProperty4()
+        {
+            Console.WriteLine("Has property4? Y/N:");
+            string input = Console.ReadLine();
+            if (input == "y" || input == "Y")
+            {
+                property4 = 1;
+            }
+            else if (input == "n" || input == "N")
+            {
+                property4 = 0;
+            }
+            else
+            {
+                Console.WriteLine("Input invalid, try again");
+                SetProperty4();
+            }
+        }
+
+        private void SetProperty5()
+        {
+            Console.WriteLine("Has property5? Y/N:");
+            string input = Console.ReadLine();
+            if (input == "y" || input == "Y")
+            {
+                property5 = 1;
+            }
+            else if (input == "n" || input == "N")
+            {
+                property5 = 0;
+            }
+            else
+            {
+                Console.WriteLine("Input invalid, try again");
+                SetProperty5();
+            }
         }
 
         private int SetStartingIndex()
@@ -62,8 +161,13 @@ namespace SerializeToFile
             Program program = new Program();
             int totalItrations = program.SetIterations();
             int startingIndex = program.SetStartingIndex();
+            program.SetProperty1();
+            program.SetProperty2();
+            program.SetProperty3();
+            program.SetProperty4();
+            program.SetProperty5();
             Console.WriteLine("Generating " + totalItrations + "NFTs starting with Index: " + startingIndex);
-            //program.Generate(totalItrations, startingIndex);
+            program.Generate(totalItrations, startingIndex);
             Console.WriteLine("Done!");
         }
     }

@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "omUuRdMH0C8vGqq1PGY685U8ADXbIJKv10SYyle10HPn/zIJkceIpSUtmlLrq7fvA5qb8ZYZobwOafKxYQeq2g==",
+  "dgSpecHash": "GQCe/edK3mRGhSbb8xmB20y4gk8fQlau9VUGmckeX1EIO9QQndNSMlQMFQlqQ2R1vdDaZTr29DzvS83odlZ+6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Diego\\Desktop\\AllyCare\\JsonGeneratorAllyCare\\JsonGenerator\\JsonGenerator\\JsonGenerator.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
-    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
